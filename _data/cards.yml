@@ -1,0 +1,24 @@
+- title: Restaurang
+  description: Hos oss serveras mat för att ätas. Man ska njuta. Krogen där glasen klingar och maten står i fokus. Här är det okej att göra bort sig, kanske till och med slafsa en aning. Man får spilla, äta med händerna och slicka tallriken.
+  image: restaurang.jpg
+
+- title: Catering & Konferens
+  description: Önskar du konferera i skärgården? Vi på Jim&Jacob lagar maten på <a href="https://www.sandudden.se" target="_blank">Villa Sandudden Konferens</a>
+  image: catering.jpg
+
+- title: Boka
+  description: ''
+  image: boka.jpg
+  custom: true
+
+- title: Chambre Séparée
+  description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Klicka här för att boka (Länk till bokningsmodul)
+  image: chambre.jpg
+
+- title: Om oss
+  description: Berättelsen om den brinnande bilen behöver vi knappast återberätta. Det vi tagit med oss är att så länge det finns engagemang och vilja kan alla omöjligheter bli möjliga. Att servera mat från en foodtruck på gatan lärde oss att smaken alltid kommer i första hand och det är den filosofin som lever med oss.
+  image: om.jpg
+
+- title: Meny
+  description: Menyn är ett levande dokument som ändras. Sällskap över 6 personer serveras vår meny som kallas för Beslutsångest. Den kostar 495:-/pp och då har våra kockar valt ut vad dem tycker att ni ska äta och uppleva.
+  image: meny.jpg

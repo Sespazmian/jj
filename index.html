@@ -1,8 +1,24 @@
 ---
 layout: default
-title: Foo
+title: Jim & Jacob
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<div class="selection-area">
+{% for card in site.data.cards %}
+  <div class="selection-container" onclick="this.classList.toggle('flipped');" ontouchstart="this.classList.toggle('flipped');">
+    <div class="selection">
+      <div class="front">
+        <image src="/assets/images/{{card.image}}"></image>
+        <div class="info">
+          <div class="blur"></div>
+          <h3>{{card.title}}</h3>
+        </div>
+      </div>
+      <div class="back">
+        <h3>{{card.title}}</h3>
+        <p>{{card.description}}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
