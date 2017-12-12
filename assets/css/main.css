@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 26px;
 }
 
 img {
@@ -154,7 +154,7 @@ header {
 }
 
 .selection {
-	transition: 0.5s;
+	transition: 0.4s;
 	transform-style: preserve-3d;
 	position: relative;
 }
@@ -182,23 +182,21 @@ header {
 
 .front .info {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
+    bottom: 0%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
 }
 
 .front h3 {
 	position: relative;
-}
-
-.front .blur {
-	width: 100%;
-	height: 110%;
-	position: absolute;
-	filter: blur(20px);
-	background: rgba(0, 0, 0, 0.75);
-	bottom: 0;
-	left: 0;
+	margin: 0;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3% 6%;
+    border: 3px solid white;
+    display: table;
 }
 
 .back {
@@ -215,30 +213,26 @@ header {
 	line-height: 1.7;
 }
 
-.selection-container:nth-of-type(1) .selection .back{
-	background: #A0AF84;
+.selection-container:nth-of-type(1) .selection .back, .selection-container:nth-of-type(1) .selection .front .info{
+	background: rgba(160, 175, 132, 0.5); /*#A0AF84;*/
 }
 
-.selection-container:nth-of-type(2) .selection .back{
-	background: #668F80;
+.selection-container:nth-of-type(2) .selection .back, .selection-container:nth-of-type(2) .selection .front .info{
+	background: rgba(102, 143, 128, 0.5); /*#668F80;*/
 }
 
-.selection-container:nth-of-type(3) .selection .back{
-	background: #4A6670;
+.selection-container:nth-of-type(3) .selection .back, .selection-container:nth-of-type(3) .selection .front .info{
+	background: rgba(74, 102, 112, 0.5); /*#4A6670;*/
 }
 
-.selection-container:nth-of-type(4) .selection .back{
-	background: #adb9b8;
+.selection-container:nth-of-type(4) .selection .back, .selection-container:nth-of-type(4) .selection .front .info{
+	background: rgba(173, 185, 184, 0.5); /*#adb9b8;*/
 }
 
-.selection-container:nth-of-type(4) .selection .back h3{
-	color: #E7E08B;
+.selection-container:nth-of-type(5) .selection .back, .selection-container:nth-of-type(5) .selection .front .info{
+	background: rgba(148, 93, 94, 0.5); /*#945D5E;*/
 }
 
-.selection-container:nth-of-type(5) .selection .back{
-	background: #945D5E;
-}
-
-.selection-container:nth-of-type(6) .selection .back{
-	background: #2E4052;
+.selection-container:nth-of-type(6) .selection .back, .selection-container:nth-of-type(6) .selection .front .info{
+	background: rgba(46, 64, 82, 0.5); /*#2E4052;*/
 }
