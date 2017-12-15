@@ -5,10 +5,10 @@ title: Jim & Jacob
 
 <div class="selection-area">
 {% for card in site.data.cards %}
-  <div class="selection-container" onclick="this.classList.toggle('flipped');" ontouchstart="this.classList.toggle('flipped');">
+  <div class="selection-container">
     <div class="selection">
       <div class="front">
-        <image src="{{ site.url }}/assets/images/{{card.image}}"></image>
+        <image src="/assets/images/{{card.image}}"></image>
         <div class="info">
           <h3>{{card.title}}</h3>
         </div>
