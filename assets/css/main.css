@@ -160,8 +160,8 @@ header {
 }
 
 .selection {
-	transition: 0.4s;
-	-webkit-transition: 0.4s;
+	transition: .9s;
+	-webkit-transition: .9s;
 	transform-style: preserve-3d;
 	position: relative;
 }

@@ -29,14 +29,14 @@ window.onload = function() {
 	    if (typeof onEnter === 'function' && typeof onExit === 'function') {
 	        var noEffect = {
 	        	origin: 'bottom',
-	            delay:    10,
+	            delay:    50,
 	            distance: 0,
 	            duration: 0,
 	            scale:    1,
 	            opacity:  null,
 	            rotate:   { x: 0, y: 0, z: 0, },
 	            viewFactor: 1,
-	            viewOffset: { top: 90, right: 0, bottom: 90, left: 0 },
+	            viewOffset: { top: 150, right: 0, bottom: 150, left: 0 },
 
 
 	            reset: true,
