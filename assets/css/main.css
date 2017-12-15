@@ -55,6 +55,10 @@ a:hover {
 		column-gap:           7px;
 	}
 
+	.selection-container {
+		margin: 45px 0;
+	}
+
 	.selection-container, .front, .back {
 		height: 60vw;
 	}
