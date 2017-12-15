@@ -20,6 +20,7 @@ img {
 	width: 100%;
 	height: 100%;
 	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
 }
 
 object {
@@ -147,6 +148,7 @@ header {
 
 .selection-container.flipped .selection {
 	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
 }
 
 .selection-container, .front, .back {
@@ -155,12 +157,14 @@ header {
 
 .selection {
 	transition: 0.4s;
+	-webkit-transition: 0.4s;
 	transform-style: preserve-3d;
 	position: relative;
 }
 
 .front, .back {
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -176,7 +180,10 @@ header {
 
 .front:hover img {
 	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+
 /*	transform: scale(1.1);*/
 }
 
@@ -194,6 +201,7 @@ header {
 	top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     padding: 3% 6%;
     border: 3px solid white;
     display: table;
@@ -201,6 +209,7 @@ header {
 
 .back {
 	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
 	background: #adb9b8;
 	color: #fff;
 	padding: 1em;
