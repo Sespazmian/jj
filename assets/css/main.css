@@ -42,6 +42,10 @@ a:hover {
 }
 
 @media screen and (min-width: 200px) {
+	h3 {
+		font-size: 21px;
+	}
+
 	#main {
 		width: 80%;
 	}
@@ -56,7 +60,7 @@ a:hover {
 	}
 
 	.selection-container {
-		margin: 45px 0;
+		margin: 10px 0;
 	}
 
 	.selection-container, .front, .back {
@@ -79,6 +83,10 @@ a:hover {
 		column-gap:           7px;
 	}
 
+	.selection-container {
+		margin: 0;
+	}
+
 	.selection-container, .front, .back {
 		height: 30vw;
 	}
@@ -98,6 +106,10 @@ a:hover {
 		column-gap:           7px;
 	}
 
+	.selection-container {
+		margin: 0;
+	}
+
 	.selection-container, .front, .back {
 		height: 30vw;
 	}
@@ -106,6 +118,9 @@ a:hover {
 @media screen and (min-width: 1020px) {
 	#main {
 		width: 924px;
+		position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
 	}
 
 	.selection-area {
@@ -117,14 +132,18 @@ a:hover {
 		column-gap:           7px;
 	}
 
+	.selection-container {
+		margin: 0;
+	}
+
 	.selection-container, .front, .back {
 		height: 20vw;
 	}
 }
 
 #main {
-	margin: 0 auto;
-    width: 90%;
+	margin-left: 1rem;
+	margin-right: 1rem;
     width: calc(100% - 3rem);
 }
 
@@ -197,18 +216,17 @@ header {
     left: 0%;
     top: 0%;
     right: 0%;
+    text-align: center;
 }
 
 .front h3 {
-	position: relative;
+	padding: 3% 6%;
+	border: 3px solid white;
+	display: inline-block;
 	margin: 0;
-	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    padding: 3% 6%;
-    border: 3px solid white;
-    display: table;
+	top: 37%;
+	position: relative;
+	animation: border 1s infinite;
 }
 
 .back {
