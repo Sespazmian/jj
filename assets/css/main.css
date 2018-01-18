@@ -47,7 +47,7 @@ a:hover {
 	}
 
 	#main {
-		width: 80%;
+		width: 100%;
 	}
 
 	.selection-area {
@@ -76,7 +76,7 @@ a:hover {
 @media screen and (min-width: 768px) {
 	#main {
 		margin: 0 auto;
-		width: 672px;
+		width: 100%;
 	}
 
 	.selection-area {
@@ -99,7 +99,7 @@ a:hover {
 
 @media screen and (min-width: 896px) {
 	#main {
-		width: 800px;
+		width: calc(100% - 2rem);
 	}
 
 	.selection-area {
@@ -122,10 +122,10 @@ a:hover {
 
 @media screen and (min-width: 1020px) {
 	#main {
-		width: 924px;
 		position: absolute;
 	    top: 50%;
 	    transform: translateY(-50%);
+	    width: calc(100% - 3rem);
 	}
 
 	.selection-area {
@@ -152,9 +152,8 @@ a:hover {
 }
 
 #main {
-	margin-left: 1rem;
-	margin-right: 1rem;
-    width: calc(100% - 3rem);
+	left: 1rem;
+	right: 1rem;
     transition: filter .3s;
 }
 
