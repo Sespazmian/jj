@@ -66,6 +66,11 @@ a:hover {
 	.selection-container, .front, .back {
 		height: 60vw;
 	}
+
+	#mask #modal {
+		margin: 12% 0;
+		width: auto;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -139,25 +144,76 @@ a:hover {
 	.selection-container, .front, .back {
 		height: 20vw;
 	}
+
+	#mask #modal {
+		margin: 4% 0;
+		width: 600px;
+	}
 }
 
 #main {
 	margin-left: 1rem;
 	margin-right: 1rem;
     width: calc(100% - 3rem);
+    transition: filter .3s;
 }
 
-header {
-	margin: 0 0 1.75rem;
-	margin-bottom: 3rem;
+.modal-active #main {
+	filter: blur(1px);
 }
 
-.branding {
+.modal-active #mask {
+	opacity: 1;
+	top: 0;
+	cursor: pointer;
 }
 
-.branding h2 {
+#mask {
+	background: rgba(0,0,0,.5);
+	transition: opacity .3s;
+/*	overflow-y: auto;*/
+	position: fixed;
+	text-align: center;
+	top: -999em;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	opacity: 0;
+}
+
+#mask #modal {
+	box-shadow: 0 0 2.4rem rgba(0,0,0,.25);
+	border-radius: .2rem;
+	text-align: left;
 	display: inline-block;
+	min-width: 340px;
+	max-width: 600px;
+	min-height: 200px;
+	position: relative;
+	background-color: #f0f0f0;
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 1.2;
 }
+
+#modal .close {
+	position: absolute;
+	right: 0;
+	top: -40px;
+	font-size: 2em;
+	font-weight: bold;
+	background: rgba(0,0,0,.75);
+	line-height: 0.5;
+	padding: 7px 5px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+
+
+/******** SELECTION CONTAINER *********/
 
 .selection-container {
 	perspective: 1000px;

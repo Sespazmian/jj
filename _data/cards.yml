@@ -9,7 +9,7 @@
 - title: Boka
   description: ''
   image: boka.jpg
-  custom: true
+  custom: modal
 
 - title: Chambre Séparée
   description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Klicka här för att boka (Länk till bokningsmodul)

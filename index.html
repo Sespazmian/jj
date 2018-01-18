@@ -5,7 +5,7 @@ title: Jim & Jacob
 
 <div class="selection-area">
 {% for card in site.data.cards %}
-  <div class="selection-container">
+  <div class="selection-container {{card.custom}}">
     <div class="selection">
       <div class="front">
         <image src="{{ site.url }}/assets/images/{{card.image}}"></image>

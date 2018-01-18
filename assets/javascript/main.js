@@ -1,27 +1,42 @@
 window.onload = function() {
+  addCardToggles();
+  addMaskListener();
+}
+
+function addMaskListener() {
+  var mask = document.querySelector('#mask');
+
+  mask.addEventListener("click", function(ev){
+    document.body.classList.toggle('modal-active');
+  }, false);
+}
+
+function addCardToggles() {
   var selectionContainers = document.getElementsByClassName('selection-container');
 
-  if (isMobile()) {
-    window.addEventListener("scroll", function(ev){
-      for (var i=0; i < selectionContainers.length; i++) {
-        if (isInViewport(selectionContainers[i]) && !selectionContainers[i].classList.contains('flipped')) {
-          selectionContainers[i].classList.toggle('flipped');
-        } else if (!isInViewport(selectionContainers[i]) && selectionContainers[i].classList.contains('flipped')) {
-          selectionContainers[i].classList.toggle('flipped');
-        };
-      };
-    }, false);
-  }
-
-  for (var i=0; i < selectionContainers.length; i++) {
-    if (!isMobile()) {
-      selectionContainers[i].addEventListener("click", function(){this.classList.toggle('flipped')}, false);
-    };
-  }
+  // if (isMobile()) {
+  //   window.addEventListener("scroll", function(ev){
+  //     for (var i=0; i < selectionContainers.length; i++) {
+  //       if (isInViewport(selectionContainers[i]) && !selectionContainers[i].classList.contains('flipped')) {
+  //         selectionContainers[i].classList.toggle('flipped');
+  //       } else if (!isInViewport(selectionContainers[i]) && selectionContainers[i].classList.contains('flipped')) {
+  //         selectionContainers[i].classList.toggle('flipped');
+  //       };
+  //     };
+  //   }, false);
+  // } else {
+    for (var i=0; i < selectionContainers.length; i++) {
+      if (selectionContainers[i].classList.contains('modal')) {
+        selectionContainers[i].addEventListener("click", function(){document.body.classList.toggle('modal-active')}, false);
+      } else {
+        selectionContainers[i].addEventListener("click", function(){this.classList.toggle('flipped')}, false);
+      }
+    }
+  // }
 }
 
 function isMobile() {
-  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 function isInViewport(element) {
