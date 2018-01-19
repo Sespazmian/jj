@@ -5,7 +5,6 @@ body {
 	line-height: 1.5;
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
-/*	background: #123659;*/
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -160,7 +159,11 @@ a:hover {
 #main {
 	left: 1rem;
 	right: 1rem;
-    transition: filter .3s;
+    -webkit-transition: filter .3s;
+       -moz-transition: filter .3s;
+        -ms-transition: filter .3s;
+         -o-transition: filter .3s;
+            transition: filter .3s;
 
     opacity: 0;
     left: -999em;
@@ -200,7 +203,6 @@ a:hover {
 
 #mask {
 	background: rgba(0,0,0,.5);
-	transition: opacity .3s;
 /*	overflow-y: auto;*/
 	position: fixed;
 	text-align: center;
@@ -210,6 +212,12 @@ a:hover {
 	height: 100%;
 	z-index: 999;
 	opacity: 0;
+
+	-webkit-transition: opacity .3s;
+	   -moz-transition: opacity .3s;
+	    -ms-transition: opacity .3s;
+	     -o-transition: opacity .3s;
+	    	transition: opacity .3s;
 }
 
 #mask #modal {
@@ -234,7 +242,6 @@ a:hover {
 	top: -40px;
 	font-size: 2em;
 	font-weight: bold;
-	background: rgba(0,0,0,.75);
 	line-height: 0.5;
 	padding: 7px 5px;
 	cursor: pointer;
@@ -251,10 +258,6 @@ a:hover {
 	display: inline-block;
 }
 
-.selection-container:hover {
-
-}
-
 .selection-container.flipped .selection {
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
@@ -265,10 +268,14 @@ a:hover {
 }
 
 .selection {
-	transition: .9s;
-	-webkit-transition: .9s;
 	transform-style: preserve-3d;
 	position: relative;
+
+	-webkit-transition: .9s;
+	   -moz-transition: .9s;
+	    -ms-transition: .9s;
+	     -o-transition: .9s;
+	    	transition: .9s;
 }
 
 .front, .back {
