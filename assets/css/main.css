@@ -46,6 +46,16 @@ a:hover {
 	color: #D0F4EA;
 }
 
+footer {
+	text-align: center;
+	font-size: .75em;
+	margin: 1.5em 0;
+}
+
+footer p {
+	margin: 0;
+}
+
 @media screen and (min-width: 200px) {
 	h3 {
 		font-size: 21px;
@@ -127,9 +137,9 @@ a:hover {
 
 @media screen and (min-width: 1020px) {
 	#main {
-		position: absolute;
+/*		position: absolute;
 	    top: 50%;
-	    transform: translateY(-50%);
+	    transform: translateY(-50%);*/
 	    width: calc(100% - 3rem);
 	}
 
@@ -188,7 +198,6 @@ a:hover {
 	width: 7em;
     margin: 0 auto;
     display: block;
-    fill: #3c3c3c;
 }
 
 .modal-active #main {
