@@ -1,10 +1,18 @@
 window.onload = function() {
   addCardToggles();
   addMaskListener();
+
+
+  document.querySelector('#main').className += "loaded";
 }
 
 function addMaskListener() {
   var mask = document.querySelector('#mask');
+  var openModal = document.querySelector('#open-modal');
+
+  openModal.addEventListener("click", function(ev){
+    document.body.classList.toggle('modal-active');
+  }, false);
 
   mask.addEventListener("click", function(ev){
     document.body.classList.toggle('modal-active');

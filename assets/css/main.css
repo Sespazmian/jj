@@ -4,6 +4,7 @@ body {
 	font-family: 'Merriweather', serif;
 	line-height: 1.5;
 	color: #fff;
+	-webkit-font-smoothing: antialiased;
 /*	background: #123659;*/
 }
 
@@ -37,6 +38,11 @@ a {
 	text-decoration: none;
 }
 
+em {
+	font-style: normal;
+	white-space: nowrap;
+}
+
 a:hover {
 	color: #D0F4EA;
 }
@@ -60,11 +66,11 @@ a:hover {
 	}
 
 	.selection-container {
-		margin: 10px 0;
+		margin: 0;
 	}
 
 	.selection-container, .front, .back {
-		height: 60vw;
+		height: 68vw;
 	}
 
 	#mask #modal {
@@ -93,7 +99,7 @@ a:hover {
 	}
 
 	.selection-container, .front, .back {
-		height: 30vw;
+		height: 33vw;
 	}
 }
 
@@ -116,7 +122,7 @@ a:hover {
 	}
 
 	.selection-container, .front, .back {
-		height: 30vw;
+		height: 33vw;
 	}
 }
 
@@ -155,6 +161,31 @@ a:hover {
 	left: 1rem;
 	right: 1rem;
     transition: filter .3s;
+
+    opacity: 0;
+    left: -999em;
+
+    -webkit-transition: opacity 1s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
+#main.loaded {
+	opacity: 1;
+	left: 0;
+	right: 0;
+}
+#logo {
+	margin: 2em 0;
+}
+
+#logo img {
+	width: 7em;
+    margin: 0 auto;
+    display: block;
+    fill: #3c3c3c;
 }
 
 .modal-active #main {
