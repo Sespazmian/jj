@@ -19,8 +19,11 @@ h3 {
 img {
 	width: 100%;
 	height: 100%;
-	transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
 }
 
 object {
@@ -169,14 +172,7 @@ footer p {
 #main .selection-area {
 	left: 1rem;
 	right: 1rem;
-    -webkit-transition: filter .3s;
-       -moz-transition: filter .3s;
-        -ms-transition: filter .3s;
-         -o-transition: filter .3s;
-            transition: filter .3s;
-
-    opacity: 0;
-    left: -999em;
+	opacity: 0;
 
     -webkit-transition: opacity .75s ease-in .75s;
        -moz-transition: opacity .75s ease-in .75s;
@@ -279,8 +275,11 @@ footer p {
 }
 
 .selection-container.flipped .selection {
-	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+	    -ms-transform: rotateY(180deg);
+	     -o-transform: rotateY(180deg);
+	     	transform: rotateY(180deg);
 }
 
 .selection-container, .front, .back {
@@ -299,13 +298,14 @@ footer p {
 }
 
 .front, .back {
-	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
 	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	        backface-visibility: hidden;
 }
 
 .front {
@@ -317,10 +317,12 @@ footer p {
 .front:hover img {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
-	transition: all .25s ease-in-out;
-	-webkit-transition: all .25s ease-in-out;
 
-/*	transform: scale(1.1);*/
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	    	transition: all .25s ease-in-out;
 }
 
 .front .info {
@@ -343,11 +345,15 @@ footer p {
 }
 
 .back {
-	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+	    -ms-transform: rotateY(180deg);
+	     -o-transform: rotateY(180deg);
+	     	transform: rotateY(180deg);
 	background: #adb9b8;
 	color: #fff;
 	padding: 1em;
+	z-index: 999;
 }
 
 .back p {
