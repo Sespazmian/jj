@@ -12,7 +12,7 @@
   custom: modal
 
 - title: Chambre Séparée
-  description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer.<br><br><a id="open-modal">Klicka här</a> för att boka.
+  description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Här serverar vi en meny för 695:-/pp.<br><br><a id="open-modal">Klicka här</a> för att boka.
   image: chambre.jpg
 
 - title: Om oss
@@ -20,5 +20,5 @@
   image: om.jpg
 
 - title: Meny
-  description: Menyn är ett levande dokument som ändras hela tiden. För att kunna vara flexibla och jobba med de vi tycker är bäst just nu finns det två menyer att välja mellan. En mindre för 365kr och en för den som vill ha allt för 495kr.
+  description: Menyn är ett levande dokument som ändras hela tiden. För att kunna vara flexibla och jobba med de vi tycker är bäst just nu så har vi en fast meny för 595kr. Väljer du hellre själv så plockar du enkelt ut en eller flera rätter som passar dig.
   image: meny.jpg
