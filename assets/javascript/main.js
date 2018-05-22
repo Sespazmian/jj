@@ -10,9 +10,11 @@ function addMaskListener() {
   var mask = document.querySelector('#mask');
   var openModal = document.querySelector('#open-modal');
 
-  openModal.addEventListener("click", function(ev){
-    document.body.classList.toggle('modal-active');
-  }, false);
+  if (openModal) {
+    openModal.addEventListener("click", function(ev){
+      document.body.classList.toggle('modal-active');
+    }, false);
+  };
 
   mask.addEventListener("click", function(ev){
     document.body.classList.toggle('modal-active');
@@ -20,7 +22,7 @@ function addMaskListener() {
 }
 
 function addCardToggles() {
-  var selectionContainers = document.getElementsByClassName('selection-container');
+  var selectionContainers = document.getElementsByClassName('card');
 
   // if (isMobile()) {
   //   window.addEventListener("scroll", function(ev){
@@ -35,9 +37,14 @@ function addCardToggles() {
   // } else {
     for (var i=0; i < selectionContainers.length; i++) {
       if (selectionContainers[i].classList.contains('modal')) {
-        selectionContainers[i].addEventListener("click", function(){document.body.classList.toggle('modal-active')}, false);
+        selectionContainers[i].addEventListener("click", function(){
+          document.body.classList.toggle('modal-active');
+        }, false);
       } else {
-        selectionContainers[i].addEventListener("click", function(){this.classList.toggle('flipped')}, false);
+        selectionContainers[i].addEventListener("click", function(){
+          console.log(this.classList);
+          this.classList.toggle('flipped');
+        }, false);
       }
     }
   // }

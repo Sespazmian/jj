@@ -2,35 +2,35 @@
   description: Hos oss serveras mat för att ätas. Man ska njuta.<br><br>Krogen där glasen klingar och maten står i fokus. Här är det okej att göra bort sig, kanske till och med slafsa en aning. Man får spilla, äta med händerna och slicka tallriken.
   image: restaurang.jpg
 
-- title: Catering & Konferens
-  description: Vi kommer gärna hem till dig och lagar/caterar en skräddarsydd upplevelse utifrån dina önskemål. Vi är alltid närvarande på plats för att säkerställa kvalité. Utöver maten erbjuder vi även serveringspersonal, porslin och annat som behövs för att du ska göra så lite som möjligt.<br><br>Skicka din förfrågan via mail, info@jimjacob.se<br><br>Önskar du konferera i skärgården? Vi på Jim&Jacob lagar maten på <a href="https://www.sandudden.se" target="_blank"><em>Villa Sandudden Konferens</em></a>
-  image: catering.jpg
-
-- title: Kontakta oss
-  description: Surbrunnsgatan 38, 113 48 Stockholm, Sweden<br><br>08-15 01 15 - info@jimjacob.se<br><br>ÖPPETTIDER<br><br>Restaurangen<br>Tis-Tors 17:00-22:00<br>Fre-Lör 17:00-23:00<br><br>Bakfickan<br>Ons-lör 17:00-Sent
-  image: tag.jpg
-
 - title: Bakfickan
   description: ''
   image: wine.jpg
+
+- title: Chambre Séparée
+  description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer.<br><br><a id="open-modal">Klicka här</a> för att boka.
+  image: chambre.jpg
+
+- title: Catering & Konferens
+  description: Vi kommer gärna hem till dig och lagar/caterar en skräddarsydd upplevelse utifrån dina önskemål. Vi är alltid närvarande på plats för att säkerställa kvalité. Utöver maten erbjuder vi även serveringspersonal, porslin och annat som behövs för att du ska göra så lite som möjligt.<br><br>Skicka din förfrågan via mail, info@jimjacob.se<br><br>Önskar du konferera i skärgården? Vi på Jim&Jacob lagar maten på <a href="https://www.sandudden.se" target="_blank"><em>Villa Sandudden Konferens</em></a>
+  image: catering.jpg
 
 - title: Boka
   description: ''
   image: boka.jpg
   custom: modal
 
+- title: Meny
+  description: Menyn är ett levande dokument som ändras hela tiden. För att kunna vara flexibla och jobba med de vi tycker är bäst just nu finns det två menyer att välja mellan. En mindre för 365kr och en för den som vill ha allt för 495kr.
+  image: meny.jpg
+
+- title: Kontakta oss
+  description: Surbrunnsgatan 38, 113 48 Stockholm, Sweden<br><br>08-15 01 15 - info@jimjacob.se<br><br>ÖPPETTIDER<br><br>Restaurangen<br>Tis-Tors 17:00-22:00<br>Fre-Lör 17:00-23:00<br><br>Bakfickan<br>Ons-lör 17:00-Sent
+  image: tag.jpg
+
 - title: ''
   description: ''
   image: ''
   custom: map
-
-- title: Chambre Séparée
-  description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Här serverar vi en meny för 695:-/pp.<br><br><a id="open-modal">Klicka här</a> för att boka.
-  image: chambre.jpg
-
-- title: Meny
-  description: Menyn är ett levande dokument som ändras hela tiden. För att kunna vara flexibla och jobba med de vi tycker är bäst just nu finns det två menyer att välja mellan. En mindre för 365kr och en för den som vill ha allt för 495kr.
-  image: meny.jpg
 
 - title: Om oss
   description: Berättelsen om den brinnande bilen behöver vi knappast återberätta. Det vi tagit med oss är att så länge det finns engagemang och vilja kan alla omöjligheter bli möjliga. Att servera mat från en foodtruck på gatan lärde oss att smaken alltid kommer i första hand och det är den filosofin som lever med oss.

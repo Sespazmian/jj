@@ -3,27 +3,19 @@ layout: default
 title: Jim & Jacob
 ---
 
-<div class="selection-area">
+<div class="card-grid">
 {% for card in site.data.cards %}
-  <div class="selection-container {{card.custom}}">
-    <div class="selection">
-      {% if card.custom == "map" %}
-        <div class="front">
-          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCj8GnxUXxDlN8UorLfLUgR-8hBRAlWhuQ&q=Jim+%26+Jacob&zoom=15" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-        </div>
-      {% else %}
-        <div class="front">
-          <image src="{{ site.url }}/assets/images/{{card.image}}"></image>
-          <div class="info">
-            <h3>{{card.title}}</h3>
-          </div>
-        </div>
-        <div class="back">
-          <h3>{{card.title}}</h3>
-          <p>{{card.description}}</p>
-        </div>
-      {% endif %}
-    </div>
+  <div class="card {{card.custom}}">
+    {% if card.custom == "map" %}
+      <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCj8GnxUXxDlN8UorLfLUgR-8hBRAlWhuQ&q=Jim+%26+Jacob&zoom=15" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+    {% else %}
+      <img src="{{ site.url }}/assets/images/{{card.image}}"></img>
+      <div class="fade"></div>
+      <div class="content">
+        <p>{{card.description}}</p>
+      </div>
+      <h1>{{card.title}}</h1>
+    {% endif %}
   </div>
 {% endfor %}
 </div>
