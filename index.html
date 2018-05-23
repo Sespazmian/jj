@@ -5,9 +5,10 @@ title: Jim & Jacob
 
 <div class="card-grid">
 {% for card in site.data.cards %}
-  <div class="card {{card.custom}}">
+  <span class="card {{card.custom}}">
     {% if card.custom == "map" %}
-      <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCj8GnxUXxDlN8UorLfLUgR-8hBRAlWhuQ&q=Jim+%26+Jacob&zoom=15" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+      <div id="map"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqQ4o6vqfqh8qAX_xLmZIetNopnWRxA3k&callback=initMap" async defer></script>
     {% else %}
       <img src="{{ site.url }}/assets/images/{{card.image}}"></img>
       <div class="fade"></div>
@@ -16,6 +17,6 @@ title: Jim & Jacob
       </div>
       <h1>{{card.title}}</h1>
     {% endif %}
-  </div>
+  </span>
 {% endfor %}
 </div>
