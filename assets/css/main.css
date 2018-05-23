@@ -115,31 +115,34 @@ footer p {
 }
 
 #mask #modal {
-	box-shadow: 0 0 2.4rem rgba(0,0,0,.25);
-	border-radius: .2rem;
 	text-align: left;
 	display: inline-block;
-	min-width: 340px;
-	max-width: 600px;
-	min-height: 200px;
+	min-width: 360px;
+	width: 500px;
+    max-width: 600px;
+    min-height: 250px;
 	position: relative;
-	background-color: #f0f0f0;
 	text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    font-size: 18px;
-    line-height: 1.2;
+    top: 8em;
+
+    /*nice rosa #da9f97*/
+    background-color: #f0f0f0;
+    border: .75rem solid #fff;
+    box-shadow: 0 0 2.4rem rgba(0,0,0,.25);
 }
 
 #modal .close {
 	position: absolute;
-	right: 0;
-	top: -40px;
 	font-size: 2em;
 	font-weight: bold;
 	line-height: 0.5;
 	padding: 7px 5px;
 	cursor: pointer;
 	border-radius: 50%;
+	right: 0;
+    top: -2em;
+    background: #f0f0f033;
 }
 
 .card-grid {
