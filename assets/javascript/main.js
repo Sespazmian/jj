@@ -289,13 +289,13 @@ function addMaskListener() {
   var mask = document.querySelector('#mask');
   var openModal = document.querySelector('#open-modal');
 
-  if (openModal) {
-    openModal.addEventListener("click", function(ev){
-      document.body.classList.toggle('modal-active');
-    }, false);
-  };
+  // if (openModal) {
+  //   openModal.addEventListener("click", function(){
+  //     document.body.classList.toggle('modal-active');
+  //   }, false);
+  // };
 
-  mask.addEventListener("click", function(ev){
+  mask.addEventListener("click", function(){
     document.body.classList.toggle('modal-active');
   }, false);
 }
@@ -303,29 +303,24 @@ function addMaskListener() {
 function addCardToggles() {
   var selectionContainers = document.getElementsByClassName('card');
 
-  // if (isMobile()) {
-  //   window.addEventListener("scroll", function(ev){
-  //     for (var i=0; i < selectionContainers.length; i++) {
-  //       if (isInViewport(selectionContainers[i]) && !selectionContainers[i].classList.contains('flipped')) {
-  //         selectionContainers[i].classList.toggle('flipped');
-  //       } else if (!isInViewport(selectionContainers[i]) && selectionContainers[i].classList.contains('flipped')) {
-  //         selectionContainers[i].classList.toggle('flipped');
-  //       };
-  //     };
-  //   }, false);
-  // } else {
-    for (var i=0; i < selectionContainers.length; i++) {
-      if (selectionContainers[i].classList.contains('modal')) {
-        selectionContainers[i].addEventListener("click", function(){
-          document.body.classList.toggle('modal-active');
-        }, false);
-      } else {
-        selectionContainers[i].addEventListener("click", function(){
-          this.classList.toggle('flipped');
-        }, false);
-      }
+  for (var i=0; i < selectionContainers.length; i++) {
+    if (selectionContainers[i].classList.contains('modal')) {
+      selectionContainers[i].addEventListener("click", function(){
+        document.body.classList.toggle('modal-active');
+
+        var content = document.getElementById('js-modal-content');
+        var title = this.childNodes[7].innerHTML;
+        var description = this.childNodes[9].innerHTML;
+
+        console.log(title);
+        content.innerHTML = "<h2>"+title+"</h2>"+description;
+      }, false);
+    } else {
+      selectionContainers[i].addEventListener("click", function(){
+        this.classList.toggle('flipped');
+      }, false);
     }
-  // }
+  }
 }
 
 function isMobile() {

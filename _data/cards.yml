@@ -1,20 +1,20 @@
 - title: Restaurang
-  description: Hos oss serveras mat för att ätas. Man ska njuta.<br><br>Krogen där glasen klingar och maten står i fokus. Här är det okej att göra bort sig, kanske till och med slafsa en aning. Man får spilla, äta med händerna och slicka tallriken.
+  description: <p>Hos oss serveras mat för att ätas. Man ska njuta.<br><br>Krogen där glasen klingar och maten står i fokus. Här är det okej att göra bort sig, kanske till och med slafsa en aning. Man får spilla, äta med händerna och slicka tallriken.</p>
   image: restaurang.jpg
   custom: modal
 
 - title: Bakfickan
-  description: ''
+  description: "<h5>Kökets öppettider: Ons-Lör, 17:00 - Sent</h5><p>Som gäst i bakfickan kommer man antingen för ett gott glas vin på vägen hem eller för en helkväll med mat, dryck och trevligt sällskap. Vår gömda bakficka sitter inte ihop med restaurangen utan ring på en klocka eller ring ett nummer. Gå in i ett bostadsrätthuset på Döbelnsgatan 83, ta en hiss neråt, gå förbi tvättstugan, in genom en betongdörr och till sist in i ett rum med varm rustikt vinkällarkänsla. I Bakfickan sitter man avslappnat i en rustik lounge miljö med platser som delas med andra.</p>"
   image: wine.jpg
   custom: modal
 
 - title: Chambre Séparée
-  description: I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer.<br><br><a id="open-modal">Klicka här</a> för att boka.
+  description: <p>I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer.<br><br><a id="open-modal">Klicka här</a> för att boka.</p>
   image: chambre.jpg
   custom: modal
 
 - title: Catering & Konferens
-  description: Vi kommer gärna hem till dig och lagar/caterar en skräddarsydd upplevelse utifrån dina önskemål. Vi är alltid närvarande på plats för att säkerställa kvalité. Utöver maten erbjuder vi även serveringspersonal, porslin och annat som behövs för att du ska göra så lite som möjligt.<br><br>Skicka din förfrågan via mail, info@jimjacob.se<br><br>Önskar du konferera i skärgården? Vi på Jim&Jacob lagar maten på <a href="https://www.sandudden.se" target="_blank"><em>Villa Sandudden Konferens</em></a>
+  description: <p>Vi kommer gärna hem till dig och lagar/caterar en skräddarsydd upplevelse utifrån dina önskemål. Vi är alltid närvarande på plats för att säkerställa kvalité. Utöver maten erbjuder vi även serveringspersonal, porslin och annat som behövs för att du ska göra så lite som möjligt.<br><br>Skicka din förfrågan via mail till info@jimjacob.se<br><br></p><h4>Önskar du konferera i skärgården?</h4><p>Vi på Jim&Jacob lagar maten på <a href="https://www.sandudden.se" target="_blank"><em>Villa Sandudden Konferens</em></a></p>
   image: catering.jpg
   custom: modal
 
@@ -24,12 +24,12 @@
   custom: book
 
 - title: Meny
-  description: Menyn är ett levande dokument som ändras hela tiden. För att kunna vara flexibla och jobba med de vi tycker är bäst just nu finns det två menyer att välja mellan. En mindre för 365kr och en för den som vill ha allt för 495kr.
+  description: <h4>Restaurangen</h4><p>Här jobbar vi nära natur och med de råvaror som erbjuds. Detta ger oss inte möjligheten till stora menyer, utan istället gör vi en mindre mer föränderlig meny. Du väljer antingen själv eller låter du oss välja <strong>5</strong> rätter för <strong>595:-/pp</strong>.</p> <h4>Bakfickan</h4><p>Vi fokuserar på goda viner från vinkällaren, mikrobryggd öl, charkuterier, ost och tapas.</p>
   image: meny.jpg
   custom: modal
 
 - title: Kontakta oss
-  description: Surbrunnsgatan 38, 113 48 Stockholm, Sweden<br><br>08-15 01 15 - info@jimjacob.se<br><br>ÖPPETTIDER<br><br>Restaurangen<br>Tis-Tors 17:00-22:00<br>Fre-Lör 17:00-23:00<br><br>Bakfickan<br>Ons-lör 17:00-Sent
+  description: "<h5>Adress</h5><p>Surbrunnsgatan 38, 113 48 Stockholm, Sweden</p><h5>Telefon</h5><p>08-15 01 15</p><h5>E-mail</h5><p>info@jimjacob.se</p><br><h4>ÖPPETTIDER</h4><h5>Restaurangen</h5><p>Tis-Tors: 17:00-22:00<br>Fre-Lör: 17:00-23:00</p><h5>Bakfickan</h5><p>Ons-lör: 17:00-Sent</p>"
   image: tag.jpg
   custom: modal
 
@@ -39,6 +39,6 @@
   custom: map
 
 - title: Om oss
-  description: Berättelsen om den brinnande bilen behöver vi knappast återberätta. Det vi tagit med oss är att så länge det finns engagemang och vilja kan alla omöjligheter bli möjliga. Att servera mat från en foodtruck på gatan lärde oss att smaken alltid kommer i första hand och det är den filosofin som lever med oss.
+  description: <p>Berättelsen om den brinnande bilen behöver vi knappast återberätta. Det vi tagit med oss är att så länge det finns engagemang och vilja kan alla omöjligheter bli möjliga. Att servera mat från en foodtruck på gatan lärde oss att smaken alltid kommer i första hand och det är den filosofin som lever med oss.</p>
   image: om.jpg
   custom: modal
