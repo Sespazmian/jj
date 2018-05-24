@@ -271,23 +271,25 @@ window.onload = function() {
 }
 
 function initMap() {
-  var jj = {lat: 59.345301, lng: 18.056470};
+  var restaurang = {lat: 59.345301, lng: 18.056470};
+  var bakfickan = {lat: 59.345633, lng: 18.056568};
+
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: jj,
+    center: restaurang,
     zoom: 14,
     styles: network,
     disableDefaultUI: true,
     zoomControl: true
   });
-  var marker = new google.maps.Marker({
-    position: jj,
+  new google.maps.Marker({
+    position: restaurang,
     map: map
   });
 }
 
 function addMaskListener() {
   var mask = document.querySelector('#mask');
-  var openModal = document.querySelector('#open-modal');
+  // var openModal = document.querySelector('#open-modal');
 
   // if (openModal) {
   //   openModal.addEventListener("click", function(){
@@ -311,8 +313,6 @@ function addCardToggles() {
         var content = document.getElementById('js-modal-content');
         var title = this.childNodes[7].innerHTML;
         var description = this.childNodes[9].innerHTML;
-
-        console.log(title);
         content.innerHTML = "<h2>"+title+"</h2>"+description;
       }, false);
     } else {

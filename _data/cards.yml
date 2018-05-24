@@ -19,7 +19,7 @@
   custom: modal
 
 - title: Boka
-  description: <iframe src="https://jimjacob.2book.se" frameborder="0" width="100%" height="600"></iframe>
+  description: <iframe src="https://jimjacob.2book.se" frameborder="0" width="100%" height="450"></iframe>
   image: boka.jpg
   custom: modal
 
