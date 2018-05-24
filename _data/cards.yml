@@ -19,9 +19,9 @@
   custom: modal
 
 - title: Boka
-  description: ''
+  description: <iframe src="https://jimjacob.2book.se" frameborder="0" width="100%" height="600"></iframe>
   image: boka.jpg
-  custom: book
+  custom: modal
 
 - title: Meny
   description: <h4>Restaurangen</h4><p>Här jobbar vi nära natur och med de råvaror som erbjuds. Detta ger oss inte möjligheten till stora menyer, utan istället gör vi en mindre mer föränderlig meny. Du väljer antingen själv eller låter du oss välja <strong>5</strong> rätter för <strong>595:-/pp</strong>.</p> <h4>Bakfickan</h4><p>Vi fokuserar på goda viner från vinkällaren, mikrobryggd öl, charkuterier, ost och tapas.</p>
