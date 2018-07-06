@@ -29,7 +29,7 @@
   custom: modal
 
 - title: Kontakta oss
-  description: "<h5>Adress</h5><p>Surbrunnsgatan 38, 113 48 Stockholm, Sweden</p><h5>Telefon</h5><p>08-15 01 15</p><h5>E-mail</h5><p>info@jimjacob.se</p><br><h4>ÖPPETTIDER</h4><h5>Restaurangen</h5><p>Tis-Tors: 17:00-22:00<br>Fre-Lör: 17:00-23:00</p><h5>Bakfickan</h5><p>Ons-lör: 17:00-Sent</p>"
+  description: "<h5>Adress</h5><p>Surbrunnsgatan 38, 113 48 Stockholm, Sweden</p><h5>Telefon</h5><p>08-15 01 15</p><h5>E-mail</h5><p>info@jimjacob.se</p><br><h4>ÖPPETTIDER</h4><h5>Sommarstängt 8 juli - 7 augusti.</h5><br><br><h5>Restaurangen</h5><p>Tis-Tors: 17:00-22:00<br>Fre-Lör: 17:00-23:00</p><h5>Bakfickan</h5><p>Ons-lör: 17:00-Sent</p>"
   image: tag.jpg
   custom: modal
 
