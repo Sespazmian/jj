@@ -208,7 +208,6 @@ footer p {
 	height: 225px;
 	position: relative;
 	margin: 1px;
-	cursor: pointer;
 	-webkit-animation-duration: 1s;
 	   -moz-animation-duration: 1s;
 	    -ms-animation-duration: 1s;
@@ -221,6 +220,10 @@ footer p {
        -moz-animation-name: fadeInDown;
         -ms-animation-name: fadeInDown;
 	    	animation-name: fadeInDown;
+}
+
+.card.modal {
+	cursor: pointer;
 }
 
 @media screen and (max-width: 1080px) {
@@ -307,14 +310,14 @@ span:nth-child(9) {
 	visibility: visible;
 }
 
-.card:hover h1 {
+.card.modal:hover h1 {
 	border-bottom: 1px solid white;
 	animation-duration: 1s;
 	animation-name: slidein;
 	animation-fill-mode: forwards;
 }
 
-.card:hover .fade {
+.card.modal:hover .fade {
 	opacity: .2;
 }
 
