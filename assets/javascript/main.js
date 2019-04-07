@@ -288,18 +288,27 @@ function initMap() {
 }
 
 function addMaskListener() {
-  var mask = document.querySelector('#mask');
-  // var openModal = document.querySelector('#open-modal');
-
-  // if (openModal) {
-  //   openModal.addEventListener("click", function(){
-  //     document.body.classList.toggle('modal-active');
-  //   }, false);
-  // };
+  const mask = document.querySelector('#mask');
 
   mask.addEventListener("click", function(){
     document.body.classList.toggle('modal-active');
   }, false);
+}
+
+function openBookingModal() {
+    const selectionContainers = document.getElementsByClassName('card');
+    const bookingContainer = selectionContainers[4];
+
+    document.body.classList.toggle('modal-active');
+
+    addModalContent(bookingContainer);
+}
+
+function addModalContent(container) {
+    var content = document.getElementById('js-modal-content');
+    var title = container.childNodes[7].innerHTML;
+    var description = container.childNodes[9].innerHTML;
+    content.innerHTML = "<h2>"+title+"</h2>"+description;
 }
 
 function addCardToggles() {
@@ -309,11 +318,7 @@ function addCardToggles() {
     if (selectionContainers[i].classList.contains('modal')) {
       selectionContainers[i].addEventListener("click", function(){
         document.body.classList.toggle('modal-active');
-
-        var content = document.getElementById('js-modal-content');
-        var title = this.childNodes[7].innerHTML;
-        var description = this.childNodes[9].innerHTML;
-        content.innerHTML = "<h2>"+title+"</h2>"+description;
+        addModalContent(this);
       }, false);
     } else {
       selectionContainers[i].addEventListener("click", function(){

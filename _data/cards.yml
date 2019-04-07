@@ -9,7 +9,7 @@
   custom: ''
 
 - title: Chambre Séparée
-  description: <p>I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Pris 695:-/pp, exkl. dryck. <br><br><a id="open-modal">Klicka här</a> för att boka.</p>
+  description: <p>I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Pris 695:-/pp, exkl. dryck. <br><br><a onclick="openBookingModal(); return false;">Klicka här</a> för att boka.</p>
   image: chambre.jpg
   custom: modal
 
