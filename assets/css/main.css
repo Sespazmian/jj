@@ -337,3 +337,7 @@ span:nth-child(9) {
 	opacity: .1;
 	z-index: 333;
 }
+
+.waiteraid-widget {
+	cursor: pointer;
+}

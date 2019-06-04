@@ -19,9 +19,9 @@
   custom: modal
 
 - title: Boka
-  description: <iframe src="https://jimjacob.2book.se" frameborder="0" width="100%" height="450"></iframe>
+  description: ''
   image: boka.jpg
-  custom: modal
+  custom: book
 
 - title: Meny
   description: <p>Härliga smårätter som serveras från köket när de är klara, perfekta att dela på eller beställa sina egna. Vår rekommendation är att fylla bordet med massa härliga rätter och äta gemensamt. Menyn står på den svarta väggen i matsalen och ändras med jämna mellanrum.</p><p>Har ni Beslutsångest? Då kan ni välja vår meny för <strong>495:-/pp</strong>. Den serveras utan preferenser till hela sällskapet.</p>

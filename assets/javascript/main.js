@@ -298,10 +298,10 @@ function addMaskListener() {
 function openBookingModal() {
     const selectionContainers = document.getElementsByClassName('card');
     const bookingContainer = selectionContainers[4];
+    bookingContainer.click();
+    // document.body.classList.toggle('modal-active');
 
-    document.body.classList.toggle('modal-active');
-
-    addModalContent(bookingContainer);
+    // addModalContent(bookingContainer);
 }
 
 function addModalContent(container) {
