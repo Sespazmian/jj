@@ -3,10 +3,10 @@
   image: restaurang.jpg
   custom: modal
 
-- title: Take-away
-  description: <p>Tillbaka till rötterna!<br><br>Historien om vår brinnande foodtruck har gått varm. Rådande omständigheter kräver nya metoder. Så varför inte damma av orginalkonceptet?<br><br>Beställ på <b><tel>08-150115</tel></b>, och hämta på Surbrunnsgatan 38.<br><br><a href="/assets/pdf/takeaway.pdf" taget="_blank">MENY</a></p>
-  image: takeaway.jpg
-  custom: modal
+- title:
+  description: "<p>Som gäst i bakfickan kommer man antingen för ett gott glas vin på vägen hem eller för en helkväll med mat, dryck och trevligt sällskap. Vår gömda bakficka sitter inte ihop med restaurangen utan ring på en klocka eller ring ett nummer. Gå in i ett bostadsrätthuset på Döbelnsgatan 83, ta en hiss neråt, gå förbi tvättstugan, in genom en betongdörr och till sist in i ett rum med varm rustikt vinkällarkänsla. I Bakfickan sitter man avslappnat i en rustik lounge miljö med platser som delas med andra.</p>"
+  image: wine.jpg
+  custom: ''
 
 - title: Chambre Séparée
   description: <p>I våra lokaler huserar en vinkällare där vi serverar middagar för upp till 10 personer samt en chambre séparée för upp till 24 personer. Pris 695:-/pp, exkl. dryck. <br><br><a onclick="openBookingModal(); return false;">Klicka här</a> för att boka.</p>
